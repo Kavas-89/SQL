@@ -44,6 +44,8 @@
   select * from Employees;
   select * from departments;
   
+  
+  
   select * from Employees
   where salary > (select avg(salary) from Employees);
   

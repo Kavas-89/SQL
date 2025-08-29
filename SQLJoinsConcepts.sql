@@ -67,6 +67,7 @@ SELECT c.Customer_Id, c.Customer_Name, c.Customer_city,
        o.Order_id, o.product_id, o.order_date
 FROM Customer c
 INNER JOIN Orders o ON c.Customer_Id = o.Customer_Id;
+
 -- left join 
 SELECT c.Customer_Id, c.Customer_Name, c.Customer_city,
        o.Order_id, o.product_id, o.order_date
